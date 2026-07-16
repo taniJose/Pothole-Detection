@@ -1,1 +1,22 @@
+# Datasets
 
+This project uses publicly available road damage datasets for training and evaluating the YOLOv8 model.
+
+## Primary Dataset
+**RDD2022 (Road Damage Detection 2022)**
+- Source: https://github.com/sekilab/RoadDamageDetector
+- Contains over 47,000 road images collected from multiple countries.
+- Includes potholes, cracks, and other road surface damages with bounding-box annotations.
+
+## Optional Dataset
+**Roboflow Pothole Dataset**
+- Source: https://universe.roboflow.com/
+- Used for additional fine-tuning to improve pothole detection accuracy.
+
+## Purpose
+These datasets are used to:
+- Train the YOLOv8 object detection model.
+- Detect potholes and road surface defects.
+- Evaluate model performance under different road conditions.
+
+> **Note:** The actual datasets are not included in this repository due to their large size. They can be downloaded from the above sources.
